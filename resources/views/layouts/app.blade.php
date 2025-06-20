@@ -99,7 +99,7 @@
             <p>&copy; {{ date('Y') }} Система Управления Заказами Доставки. Все права защищены.</p>
         </div>
     </footer>
-
+    <!-- выподающий список пользователя -->
     <script>
         function toggleDropdown() {
             const dropdown = document.getElementById('userDropdown');

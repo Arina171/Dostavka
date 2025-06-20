@@ -21,7 +21,7 @@ class DeliverySeeder extends Seeder
                 ['order_id' => $testOrder->id],
                 [
                     'delivery_method' => 'courier',
-                    'delivery_address' => 'ул. Пушкина, дом Колотушкина, кв. 10',
+                    'delivery_address' => 'ул. 1 мая д.20 кв.45',
                     'delivery_date' => Carbon::now()->addDays(2), 
                     'delivery_status' => 'assigned',
                     'courier_id' => $alexCourier->id,

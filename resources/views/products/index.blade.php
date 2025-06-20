@@ -1,3 +1,6 @@
+@extends('layouts.app') {{-- Расширяем общий шаблон админ-панели --}}
+
+@section('content')
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -56,4 +59,5 @@
         </table>
     </div>
 </body>
+@endsection
 </html>

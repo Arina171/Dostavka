@@ -18,13 +18,13 @@
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
                         <img src="{{ $product->image_url ?? 'https://placehold.co/400x300/cccccc/333333?text=Нет+Изображения' }}"
                              alt="{{ $product->name }}"
-                             class="w-full h-48 object-cover"
-                             onerror="this.onerror=null;this.src='https://placehold.co/400x300/cccccc/333333?text=Ошибка+Загрузки';" />
+                             class="w-full h-48 object-cover">
 
                         <div class="p-6">
                             
                             <h3 class="text-xl font-semibold text-gray-900 mb-2">
                                 <a href="{{ route('products.show', $product->id) }}" class="hover:text-blue-600 transition-colors duration-200">
+                                    {{ $product->name }}
                                 </a>
                             </h3>
 
